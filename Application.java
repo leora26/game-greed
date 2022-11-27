@@ -56,10 +56,12 @@ public class Application {
         }
 
         System.out.println("Here is the map");
+        Computer.computerRandomPos();
         Board.boardFilling();
+        Computer.computerDefiner();
         Player.playerDefiner();
         Board.showMap();
-        Pawn.movement();
+        Pawn.playerMovement();
     }
 
 
